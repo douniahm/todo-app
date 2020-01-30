@@ -37,4 +37,4 @@ Now the app has no access to network interaction.
 On a refresh, the page loads normally, cause all of the files the browser needs to render this application are cached.
 
 ## Install the application
-The app can be installed by clicking on "plus icon" in the search tab
+The app can be installed by clicking on "plus icon" in the search tab.

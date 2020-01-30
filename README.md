@@ -41,8 +41,7 @@ The app can be installed by clicking on "plus icon" in the search tab.
 
 ##Screens
   - Add new Task:
-  https://user-images.githubusercontent.com/36522492/73453972-66001880-436d-11ea-926a-d46edc509db1.PNG
-  - Tasks List
+![1](https://user-images.githubusercontent.com/36522492/73453972-66001880-436d-11ea-926a-d46edc509db1.PNG)  - Tasks List
   https://user-images.githubusercontent.com/36522492/73453975-67c9dc00-436d-11ea-87b2-a35e8775df3a.PNG
   - Install Application
   https://user-images.githubusercontent.com/36522492/73453978-6b5d6300-436d-11ea-8fa3-cb9c9319b8d1.png

@@ -1,0 +1,86 @@
+{
+  "configVersion": 1,
+  "timestamp": 1580393177816,
+  "index": "https://douniahm.github.io/todo-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://douniahm.github.io/todo-app/favicon.ico",
+        "https://douniahm.github.io/todo-app/index.html",
+        "https://douniahm.github.io/todo-app/main-es2015.115d38471913817ad07c.js",
+        "https://douniahm.github.io/todo-app/main-es5.115d38471913817ad07c.js",
+        "https://douniahm.github.io/todo-app/polyfills-es2015.2987770fde9daa1d8a2e.js",
+        "https://douniahm.github.io/todo-app/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
+        "https://douniahm.github.io/todo-app/runtime-es2015.edb2fcf2778e7bf1d426.js",
+        "https://douniahm.github.io/todo-app/runtime-es5.edb2fcf2778e7bf1d426.js",
+        "https://douniahm.github.io/todo-app/scripts.fd12c80ebcc479d5730a.js",
+        "https://douniahm.github.io/todo-app/styles.0b1fd6e1eed55a7488cb.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://douniahm.github.io/todo-app/assets/icons/icon-128x128.png",
+        "https://douniahm.github.io/todo-app/assets/icons/icon-144x144.png",
+        "https://douniahm.github.io/todo-app/assets/icons/icon-152x152.png",
+        "https://douniahm.github.io/todo-app/assets/icons/icon-192x192.png",
+        "https://douniahm.github.io/todo-app/assets/icons/icon-384x384.png",
+        "https://douniahm.github.io/todo-app/assets/icons/icon-512x512.png",
+        "https://douniahm.github.io/todo-app/assets/icons/icon-72x72.png",
+        "https://douniahm.github.io/todo-app/assets/icons/icon-96x96.png",
+        "https://douniahm.github.io/todo-app/assets/icons/icons8-cercle-16 (1).png",
+        "https://douniahm.github.io/todo-app/assets/icons/icons8-cercle-16.png",
+        "https://douniahm.github.io/todo-app/assets/icons/icons8-plus-64.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://douniahm.github.io/todo-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://douniahm.github.io/todo-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://douniahm.github.io/todo-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://douniahm.github.io/todo-app/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://douniahm.github.io/todo-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://douniahm.github.io/todo-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://douniahm.github.io/todo-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://douniahm.github.io/todo-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://douniahm.github.io/todo-app/assets/icons/icons8-cercle-16 (1).png": "7e5bb4dc044357e600e07d7e0db673952442e0d1",
+    "https://douniahm.github.io/todo-app/assets/icons/icons8-cercle-16.png": "1be1e385d76930fe675c0a8924929be5ced3f439",
+    "https://douniahm.github.io/todo-app/assets/icons/icons8-plus-64.png": "9dccf0b47eec466c95ebe0fc98fe88a3dd1b011e",
+    "https://douniahm.github.io/todo-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://douniahm.github.io/todo-app/index.html": "8160b1acd3ac52fccc81ef3e434ee121f77edb36",
+    "https://douniahm.github.io/todo-app/main-es2015.115d38471913817ad07c.js": "bca3a26c4befa104e6f71237eb7e055e08a9cf68",
+    "https://douniahm.github.io/todo-app/main-es5.115d38471913817ad07c.js": "5d7361c56132be0f7da631fb02eae9c3bea05abf",
+    "https://douniahm.github.io/todo-app/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "https://douniahm.github.io/todo-app/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
+    "https://douniahm.github.io/todo-app/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://douniahm.github.io/todo-app/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://douniahm.github.io/todo-app/scripts.fd12c80ebcc479d5730a.js": "3cd862c729402884f283baf8060520db545a6f19",
+    "https://douniahm.github.io/todo-app/styles.0b1fd6e1eed55a7488cb.css": "2381ea774c87d992e8761d2fbf1f14612d9d8cd0"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

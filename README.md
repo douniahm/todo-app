@@ -1,27 +1,40 @@
 # TodoList
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Using:
+  - Rxjs for sharing data between components (Reactive Application)
+  - Karma and Jasmine for unit tests
+  - Angular Service Worker for Creating PWA application
+## Install Dependencies
+run `npm install` for installing http-server and service worker
 
 ## Running unit tests
-
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Build
+Run `ng build --prod` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Development server
+Run `http-server -p 8080 -c-1 dist/todo-list`. Navigate to `http://localhost:8080/`. The app will automatically 
+load the new version if Service Worker detects a new **ngsw.json**. Thanks to **SwUpdate** service and its **checkForUpdate()** method:
+```
+if (this.swUpdate.isEnabled) {
 
-## Further help
+      this.swUpdate.available.subscribe(() => {
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+          if(confirm("New version available. Load New Version?")) {
+
+              window.location.reload();
+          }
+      });
+}
+```
+## Offline Mode
+disable network interaction for your application. In Chrome:
+  1- Select Tools > Developer Tools (from the Chrome menu located at the top right corner).
+  2- Go to the Network tab.
+  3- Check the Offline box.
+Now the app has no access to network interaction.
+On a refresh, the page loads normally, cause all of the files the browser needs to render this application are cached.
+
+## Install the application
+The app can be installed by clicking on "plus icon" in the search tab

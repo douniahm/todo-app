@@ -1,0 +1,25 @@
+<table class="table">
+  <!--<thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>-->
+  <tbody>
+    <tr *ngFor="let task of tasks">
+      <td>
+        <div class="d-flex justify-content-between">
+          <div style="font-weight: bold;">
+            <img *ngIf="task.isDone == true" src="../../assets/icons/icons8-cercle-16 (1).png" alt="done" (click)="onUndone(task.id)">
+            <img *ngIf="task.isDone == false" src="../../assets/icons/icons8-cercle-16.png" alt="undone" (click)="onDone(task.id)">
+            {{task.title}}
+          </div>
+          <div>{{task.date}}</div>
+        </div>
+        <div>{{task.details}}</div>
+      </td>
+    </tr>
+  </tbody>
+</table>

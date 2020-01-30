@@ -1,0 +1,30 @@
+<!-- New Task modal -->
+<div>
+  <h4>My Todo List</h4>
+  <button type="button" class="btn" id="new-task" data-toggle="modal" data-target="#exampleModal">
+    <img src="../../assets/icons/icons8-plus-64.png" alt="new task">
+  </button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New Task</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="text" class="form-control" [(ngModel)]="task.title" placeholder="Title"><br>
+        <input type="date" class="form-control" [(ngModel)]="task.date"><br>
+        <input type="text" class="form-control" [(ngModel)]="task.details" placeholder="Details"><br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success" id="add-new-task" (click)="onAddTask()" data-dismiss="modal">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+<app-list-task></app-list-task>
